@@ -102,7 +102,7 @@ ms.locfileid: "87916904"
 
 `bool` オペランドの場合、`&` 演算子がそのオペランドの[論理 AND](boolean-logical-operators.md#logical-and-operator-) を計算します。 単項 `&` 演算子は[アドレス演算子](pointer-related-operators.md#address-of-operator-)です。
 
-## <a name="logical-exclusive-or-operator-"></a>論理排他的 OR 演算子: ^
+## <a name="logical-exclusive-or-operator-"></a>論理排他的 OR 演算子 ^
 
 `^` 演算子では、そのオペランドのビットごとの論理排他的 OR (ビットごとの論理 XOR とも呼ばれます) が計算されます。
 
@@ -118,7 +118,7 @@ ms.locfileid: "87916904"
 
 `bool` オペランドの場合、`|` 演算子がそのオペランドの[論理 OR](boolean-logical-operators.md#logical-or-operator-) を計算します。
 
-## <a name="compound-assignment"></a>複合代入。
+## <a name="compound-assignment"></a>複合代入
 
 2 項演算子 `op` の場合、フォームの複合代入式
 
