@@ -55,13 +55,13 @@ ms.locfileid: "87916965"
 
 ### <a name="postfix-increment-operator"></a>後置インクリメント演算子
 
-次の例に示すように、`x++` の結果は、演算子の "*前の*" `x` 値です。
+次の例に示すように、`x++` の結果は、演算する "*前の*" `x` の値です。
 
 [!code-csharp-interactive[postfix increment](snippets/shared/ArithmeticOperators.cs#PostfixIncrement)]
 
 ### <a name="prefix-increment-operator"></a>前置インクリメント演算子
 
-次の例に示すように、`++x` の結果は、演算子の "*後ろの*" `x` 値です。
+次の例に示すように、`++x` の結果は、演算した "*後の*" `x` の値です。
 
 [!code-csharp-interactive[prefix increment](snippets/shared/ArithmeticOperators.cs#PrefixIncrement)]
 
@@ -73,13 +73,13 @@ ms.locfileid: "87916965"
 
 ### <a name="postfix-decrement-operator"></a>後置デクリメント演算子
 
-次の例に示すように、`x--` の結果は、演算子の "*前の*" `x` 値です。
+次の例に示すように、`x--` の結果は、演算する "*前の*" `x` の値です。
 
 [!code-csharp-interactive[postfix decrement](snippets/shared/ArithmeticOperators.cs#PostfixDecrement)]
 
 ### <a name="prefix-decrement-operator"></a>前置デクリメント演算子
 
-次の例に示すように、`--x` の結果は、演算子の "*後ろの*" `x` 値です。
+次の例に示すように、`--x` の結果は、演算した "*後の*" `x` の値です。
 
 [!code-csharp-interactive[prefix decrement](snippets/shared/ArithmeticOperators.cs#PrefixDecrement)]
 
