@@ -167,7 +167,7 @@ ms.locfileid: "87916965"
 
 デリゲートの削除には、`-` 演算子を使用することもできます。 詳細については、「[`-` および `-=` 演算子](subtraction-operator.md)」の記事を参照してください。
 
-## <a name="compound-assignment"></a>複合代入。
+## <a name="compound-assignment"></a>複合代入
 
 2 項演算子 `op` の場合、フォームの複合代入式
 
