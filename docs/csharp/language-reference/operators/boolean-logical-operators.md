@@ -126,16 +126,16 @@ C# 8.0 以降では、単項後置の `!` 演算子は [null 免除演算子](nu
 
 そのセマンティクスを次の表に示します。
 
-|x|Y|x&y|x&#124;y|  
+|x|y|x&y|x&#124;y|  
 |----|----|----|----|  
 |true|true|true|true|  
-|TRUE|False|false|true|  
+|true|false|false|true|  
 |true|null|null|true|  
-|False|true|False|true|  
-|False|False|False|False|  
-|False|null|False|null|  
+|false|true|false|true|  
+|false|false|false|false|  
+|false|null|false|null|  
 |null|true|null|true|  
-|null|False|False|null|  
+|null|false|false|null|  
 |null|null|null|null|  
 
 これらの演算子の動作は、null 許容値型の一般的な演算子の動作とは異なります。 通常、値型のオペランドに定義されている演算子も、対応する null 値型のオペランドと共に使用できます。 このような演算子では、そのオペランドのいずれかが `null` として評価される場合に `null` を生成します。 しかし、`&` および `|` 演算子は、オペランドの 1 つが `null` として評価される場合でも、null 以外の値を生成する可能性があります。 null 許容値型の演算子の動作については、[null 許容値型](../builtin-types/nullable-value-types.md)に関する記事の「[リフト演算子](../builtin-types/nullable-value-types.md#lifted-operators)」セクションを参照してください。
