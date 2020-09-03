@@ -30,9 +30,9 @@ ms.locfileid: "88063095"
 
 等値演算子 `==` は、そのオペランドが等しい場合には `true` を返し、それ以外の場合は `false` を返します。
 
-### <a name="value-types-equality"></a>値の型の等価性
+### <a name="value-types-equality"></a>値型の等価性
 
-[組み込みの値の型](../builtin-types/value-types.md#built-in-value-types)のオペランドは、その値が等しい場合は等しくなります。
+[組み込みの値型](../builtin-types/value-types.md#built-in-value-types)のオペランドは、その値が等しい場合は等しくなります。
 
 [!code-csharp-interactive[value types equality](snippets/shared/EqualityOperators.cs#ValueTypesEquality)]
 
