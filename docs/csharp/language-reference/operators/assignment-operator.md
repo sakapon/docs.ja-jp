@@ -42,7 +42,7 @@ C# 7.3 以降では、ref 代入演算子 `= ref` を使用して、[ref ロー�
 
 ref 代入演算子の場合、その両方のオペランドの型が同じである必要があります。
 
-## <a name="compound-assignment"></a>複合代入。
+## <a name="compound-assignment"></a>複合代入
 
 2 項演算子 `op` の場合、フォームの複合代入式
 
@@ -62,7 +62,7 @@ x = x op y
 
 ## <a name="null-coalescing-assignment"></a>null 合体割り当て
 
-C# 8.0 以降では、null 合体割り当て演算子 `??=` を使用して、左側のオペランドが `null` に評価された場合にのみ、右側のオペランドの値を左側のオペランドに割り当てることができます。 詳細については、「[?? and ??= 演算子](null-coalescing-operator.md)」の記事を参照してください。
+C# 8.0 以降では、null 合体割り当て演算子 `??=` を使用して、左側のオペランドが `null` に評価された場合にのみ、右側のオペランドの値を左側のオペランドに割り当てることができます。 詳細については、「[?? および ??= 演算子](null-coalescing-operator.md)」の記事を参照してください。
 
 ## <a name="operator-overloadability"></a>演算子のオーバーロード可/不可
 
