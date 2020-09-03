@@ -18,7 +18,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/30/2020
 ms.locfileid: "89118287"
 ---
-# <a name="-and--operators-c-reference"></a>?? および ?? 演算子 (C# リファレンス)
+# <a name="-and--operators-c-reference"></a>?? および ??= 演算子 (C# リファレンス)
 
 null 合体演算子 `??` では、それが `null` ではない場合、その左側のオペランドの値が返されます。それ以外の場合は、右側のオペランドが評価され、その結果が返されます。 `??` 演算子では、左側のオペランドが null 値以外に評価された場合は、その右側のオペランドは評価されません。
 
