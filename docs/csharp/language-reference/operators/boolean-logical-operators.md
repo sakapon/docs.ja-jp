@@ -74,7 +74,7 @@ C# 8.0 以降では、単項後置の `!` 演算子は [null 免除演算子](nu
 
 [整数の数値型](../builtin-types/integral-numeric-types.md)のオペランドの場合、`&` 演算子でそのオペランドの[ビットごとの論理 AND](bitwise-and-shift-operators.md#logical-and-operator-) を計算します。 単項 `&` 演算子は[アドレス演算子](pointer-related-operators.md#address-of-operator-)です。
 
-## <a name="logical-exclusive-or-operator-"></a>論理排他的 OR 演算子: ^
+## <a name="logical-exclusive-or-operator-"></a>論理排他的 OR 演算子 ^
 
 `^` 演算子は、そのオペランドの論理排他的 OR (論理 XOR とも呼ばれます) を計算します。 `x` が `true` に評価され、`y` が `false` に評価された場合、または `x` が `false` に評価され、`y` が `true` に評価された場合、`x ^ y` の結果は `true` です。 それ以外の場合、結果は `false` です。 つまり、`bool` オペランドの場合、`^` 演算子は[非等値演算子](equality-operators.md#inequality-operator-) `!=` と同じ結果を計算します。
 
@@ -146,7 +146,7 @@ C# 8.0 以降では、単項後置の `!` 演算子は [null 免除演算子](nu
 
 条件付き論理演算子 `&&` と `||` では、`bool?` オペランドをサポートしません。
 
-## <a name="compound-assignment"></a>複合代入。
+## <a name="compound-assignment"></a>複合代入
 
 2 項演算子 `op` の場合、フォームの複合代入式
 
