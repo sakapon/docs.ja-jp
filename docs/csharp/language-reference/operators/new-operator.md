@@ -48,7 +48,7 @@ ms.locfileid: "89118274"
 
 [!code-csharp-interactive[anonymous type](snippets/shared/NewOperator.cs#AnonymousType)]
 
-## <a name="destruction-of-type-instances"></a>型インスタンストの破棄
+## <a name="destruction-of-type-instances"></a>型のインスタンスの破棄
 
 以前作成した型のインスタンスを破棄する必要はありません。 参照型と値型のインスタンスは両方とも自動的に破棄されます。 値型のインスタンスは、それらを格納しているコンテキストが破棄されるとすぐに破棄されます。 参照型のインスタンスは[ガベージ コレクター](../../../standard/garbage-collection/index.md)によって、そのインスタンスへの最後の参照が削除された後、不特定のタイミングで破棄されます。
 
